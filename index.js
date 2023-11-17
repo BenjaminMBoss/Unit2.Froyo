@@ -11,7 +11,7 @@ function getOrder() {
     return flavorsArr;
 }
 
-// This function adds order from orderArr to froyoOrder class and returns the obj
+// This function adds order from orderArr to froyoOrder class and returns the obj w/ count of each flavor
 function   addOrder(arr, obj) {
     for (let i = 0; i < arr.length; i++) {
         const orderStr = arr[i];
