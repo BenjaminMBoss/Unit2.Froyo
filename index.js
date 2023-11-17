@@ -23,8 +23,6 @@ function   addOrder(arr, obj) {
     return obj;
 }
 
-let objects = {}
-
 let froyoOrder = orderObject();
 let orderArr = getOrder();
 froyoOrder = addOrder(orderArr, froyoOrder);
